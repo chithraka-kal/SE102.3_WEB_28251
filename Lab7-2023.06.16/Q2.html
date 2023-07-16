@@ -10,7 +10,7 @@
             }
            function getMarks(){
             var total = 0;
-            for(var i=0; i<5; i++){
+            for(var i=0; i<3; i++){
                 var marks = parseInt(window.prompt("Enter Marks:"));
                 total += marks;
             }
@@ -19,17 +19,19 @@
             document.write("<br>");
             document.write("average: ",total/5);
 
+            document.write("<br><br>")
+
             var button = document.createElement("button");
-            button.innerHTML = "Grade";
-            button.oneclick = function(){
-                if(average > 30){
-                    window.alert("Congrats!");
-                }
-                else{
-                    window.alert("Better luck next time!");
-                }
-            };
-            document.body.appendChild(button);
+button.innerHTML = "Grade";
+button.onclick = function() {
+    if (average > 30) {
+        window.alert("Congrats!");
+    } else {
+        window.alert("Better luck next time!");
+    }
+};
+document.body.appendChild(button);
+
            } 
         </script>
     </body>
