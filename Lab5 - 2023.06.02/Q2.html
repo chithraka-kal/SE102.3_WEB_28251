@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-image: url(forest.jpg);
+            background-size: cover;
+            color: gold;
+        }
+        table{
+            background-color:rgb(30, 30, 61);
+        }
+        .submit{
+            background-color: chartreuse;
+            color: white;
+        }
+        .cancel{
+            background-color:crimson;
+            color:white;
+        }
+    </style>
+</head>
+<body>
+    <br><br><br>
+    
+        <center>
+            
+            <table border="0">
+                <tr bgcolor="orange">
+                    <td colspan="2"><b><center><font color="black">Sign Up</font></center></b></td>
+                
+                </tr>
+                <tr>
+                    <td>First Name</td>
+                    <td><input type="text" placeholder="Enter First Name"></td>
+                </tr>
+                <tr>
+                    <td>Last Name</td>
+                    <td><input type="text" placeholder="Enter Last Name"></td>
+                </tr>
+                <tr>
+                    <td>Date of Birth</td>
+                    <td>
+                        <select><option>Date</option></select>
+                        <select><option>Month</option></select>
+                        <select><option>Year</option></select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Gender</td>
+                    <td>
+                        <input type="radio" name="gender">Male
+                        <input type="radio" name="gender">Female
+                    </td>
+                </tr>
+                    <td>Country</td>
+                    <td>
+                        <select>
+                            <option>Country</option>
+                        </select>
+                    </td>
+                <tr>
+                    <td>E-mail</td>
+                    <td><input type="email" placeholder="Enter E-mail"></td>
+                </tr>
+                <tr>
+                    <td>Phone</td>
+                    <td><input type="text" placeholder="Enter Phone"></td>
+                </tr>
+                <tr>
+                    <td>Password</td>
+                    <td><input type="password"></td>
+                </tr>
+                <tr>
+                    <td>Confirm Password</td>
+                    <td><input type="password"></td>
+                </tr>
+
+                
+                <tr>
+                    <td></td>
+                    <td><input type="checkbox">I agree to the term amd conditions</td>
+                </tr>
+                <tr bgcolor="orange">
+                    <td colspan="2"><input type="submit" name="log" value="Submit" class="submit">
+                     <input type="reset" name="re" value="Cancel" class="cancel"></td>
+                </tr>
+            </table>
+            <br>
+                
+
+        </center>
+    </form>
+    
+</body>
+</html>
