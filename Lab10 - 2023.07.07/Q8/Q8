@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student NIC - Year of Birth</title>
+</head>
+<body>
+    <button onclick="getYearOfBirth()">Get Year of Birth</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
